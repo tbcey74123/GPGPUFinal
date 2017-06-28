@@ -1,0 +1,391 @@
+﻿  Compiling CUDA source file main.cu...
+  
+  C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\CUDA_SHDecomposition>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "E:\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DPBRT_PROBES_NONE -DPBRT_HAS_OPENEXR -DWIN32 -D_WIN64 -DNDEBUG -D_CONSOLE -DPBRT_PROBES_NONE -DPBRT_HAS_OPENEXR -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o x64\Release\main.cu.obj "C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\CUDA_SHDecomposition\main.cu" 
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\cuda_runtime.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\cuda_runtime_api.h(1946): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\cuda_runtime_api.h(1946): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(849): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(1787): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(2637): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(3492): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(4431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(5345): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(6252): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(7142): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(7956): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h(774): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h(1618): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_double_functions.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\sm_20_intrinsics.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\sm_20_intrinsics.h(943): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:/Users/tbcey74123/Desktop/CUDA/FinalProject/CUDA_SHDecomposition_Release/CUDA_SHDecomposition/main.cu(74): warning : variable "a" was declared but never referenced
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\cuda_runtime.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\cuda_runtime_api.h(1946): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\cuda_runtime_api.h(1946): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(849): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(1787): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(2637): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(3492): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(4431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(5345): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(6252): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(7142): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(7956): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h(774): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h(1618): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_double_functions.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\sm_20_intrinsics.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\sm_20_intrinsics.h(943): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:/Users/tbcey74123/Desktop/CUDA/FinalProject/CUDA_SHDecomposition_Release/CUDA_SHDecomposition/main.cu(74): warning : variable "a" was declared but never referenced
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(849): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(1787): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(2637): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(3492): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(4431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(5345): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(6252): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(7142): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(7956): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(849): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(1787): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(2637): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(3492): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(4431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(5345): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(6252): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(7142): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(7956): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions_decls.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions_decls.h(910): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions_decls.h(1903): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions_decls.h(2843): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions_decls.h(3779): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions_decls.h(4721): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions_decls.h(5723): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions_decls.h(6682): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions_decls.h(7610): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions_decls.h(8543): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions_decls.h(9413): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions_decls.h(10391): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions_decls.h(11435): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h(774): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h(1618): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_double_functions.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\sm_20_intrinsics.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\sm_20_intrinsics.h(943): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions_decls.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions_decls.h(910): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions_decls.h(1903): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions_decls.h(2843): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions_decls.h(3779): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions_decls.h(4721): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions_decls.h(5723): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions_decls.h(6682): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions_decls.h(7610): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions_decls.h(8543): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions_decls.h(9413): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions_decls.h(10391): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions_decls.h(11435): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h(774): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h(1618): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(849): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(1787): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(2637): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(3492): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(4431): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(5345): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(6252): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(7142): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(7956): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  main.cu
+C:/Users/tbcey74123/Desktop/CUDA/FinalProject/CUDA_SHDecomposition_Release/CUDA_SHDecomposition/main.cu(742): warning C4018: '<': signed/unsigned 不相符
+  camera.cpp
+  diffgeom.cpp
+  error.cpp
+pbrt\core\error.cpp(69): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: 請參閱 'sprintf' 的宣告
+  fileutil.cpp
+  film.cpp
+  filter.cpp
+  floatfile.cpp
+pbrt\core\floatfile.cpp(40): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 請參閱 'fopen' 的宣告
+  geometry.cpp
+  imageio.cpp
+c:\users\tbcey74123\desktop\cuda\finalproject\cuda_shdecomposition_release\cuda_shdecomposition\pbrt\core\stb_image_write.h(156): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 請參閱 'fopen' 的宣告
+c:\users\tbcey74123\desktop\cuda\finalproject\cuda_shdecomposition_release\cuda_shdecomposition\pbrt\core\stb_image_write.h(495): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 請參閱 'fopen' 的宣告
+C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\CUDA_SHDecomposition\3rdparty\openexr-1.7.0\ImfName.h(103): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(346): note: 請參閱 'strncpy' 的宣告
+pbrt\core\imageio.cpp(339): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 請參閱 'fopen' 的宣告
+pbrt\core\imageio.cpp(370): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: 請參閱 'sscanf' 的宣告
+pbrt\core\imageio.cpp(425): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 請參閱 'fopen' 的宣告
+  integrator.cpp
+  intersection.cpp
+  light.cpp
+  material.cpp
+  memory.cpp
+  montecarlo.cpp
+  parallel.cpp
+pbrt\core\parallel.cpp(741): warning C4312: 'reinterpret_cast': 將 'int' 轉換為較大的 'void *'
+  paramset.cpp
+pbrt\core\paramset.cpp(447): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1952): note: 請參閱 '_snprintf' 的宣告
+pbrt\core\paramset.cpp(464): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1952): note: 請參閱 '_snprintf' 的宣告
+pbrt\core\paramset.cpp(481): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1952): note: 請參閱 '_snprintf' 的宣告
+pbrt\core\paramset.cpp(498): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1952): note: 請參閱 '_snprintf' 的宣告
+pbrt\core\paramset.cpp(516): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1952): note: 請參閱 '_snprintf' 的宣告
+pbrt\core\paramset.cpp(534): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1952): note: 請參閱 '_snprintf' 的宣告
+pbrt\core\paramset.cpp(552): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1952): note: 請參閱 '_snprintf' 的宣告
+pbrt\core\paramset.cpp(569): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1952): note: 請參閱 '_snprintf' 的宣告
+pbrt\core\paramset.cpp(588): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1952): note: 請參閱 '_snprintf' 的宣告
+  parser.cpp
+pbrt\core\parser.cpp(46): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h(1183): note: 請參閱 'getenv' 的宣告
+pbrt\core\parser.cpp(52): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 請參閱 'fopen' 的宣告
+  pbrtlex.cpp
+E:\Microsoft Visual Studio 14.0\VC\include\stdint.h(48): warning C4005: 'INT8_MIN': 巨集重複定義
+  core/pbrtlex.cpp(61): note: 請參閱 'INT8_MIN' 之前的定義
+E:\Microsoft Visual Studio 14.0\VC\include\stdint.h(49): warning C4005: 'INT16_MIN': 巨集重複定義
+  core/pbrtlex.cpp(64): note: 請參閱 'INT16_MIN' 之前的定義
+E:\Microsoft Visual Studio 14.0\VC\include\stdint.h(50): warning C4005: 'INT32_MIN': 巨集重複定義
+  core/pbrtlex.cpp(67): note: 請參閱 'INT32_MIN' 之前的定義
+E:\Microsoft Visual Studio 14.0\VC\include\stdint.h(52): warning C4005: 'INT8_MAX': 巨集重複定義
+  core/pbrtlex.cpp(70): note: 請參閱 'INT8_MAX' 之前的定義
+E:\Microsoft Visual Studio 14.0\VC\include\stdint.h(53): warning C4005: 'INT16_MAX': 巨集重複定義
+  core/pbrtlex.cpp(73): note: 請參閱 'INT16_MAX' 之前的定義
+E:\Microsoft Visual Studio 14.0\VC\include\stdint.h(54): warning C4005: 'INT32_MAX': 巨集重複定義
+  core/pbrtlex.cpp(76): note: 請參閱 'INT32_MAX' 之前的定義
+E:\Microsoft Visual Studio 14.0\VC\include\stdint.h(56): warning C4005: 'UINT8_MAX': 巨集重複定義
+  core/pbrtlex.cpp(79): note: 請參閱 'UINT8_MAX' 之前的定義
+E:\Microsoft Visual Studio 14.0\VC\include\stdint.h(57): warning C4005: 'UINT16_MAX': 巨集重複定義
+  core/pbrtlex.cpp(82): note: 請參閱 'UINT16_MAX' 之前的定義
+E:\Microsoft Visual Studio 14.0\VC\include\stdint.h(58): warning C4005: 'UINT32_MAX': 巨集重複定義
+  core/pbrtlex.cpp(85): note: 請參閱 'UINT32_MAX' 之前的定義
+  pbrtparse.cpp
+  正在編譯...
+  primitive.cpp
+  probes.cpp
+  progressreporter.cpp
+pbrt\core\progressreporter.cpp(61): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1952): note: 請參閱 '_snprintf' 的宣告
+  quaternion.cpp
+  reflection.cpp
+  renderer.cpp
+  rng.cpp
+  sampler.cpp
+  scene.cpp
+  sh.cpp
+pbrt\core\sh.cpp(379): warning C4838: 從 'double' 到 'const float' 的轉換必須是縮小轉換
+  shape.cpp
+  shrots.cpp
+  spectrum.cpp
+pbrt\core\spectrum.cpp(653): warning C4838: 從 'double' 到 'const float' 的轉換必須是縮小轉換
+pbrt\core\spectrum.cpp(673): warning C4838: 從 'double' 到 'const float' 的轉換必須是縮小轉換
+pbrt\core\spectrum.cpp(691): warning C4838: 從 'double' 到 'const float' 的轉換必須是縮小轉換
+pbrt\core\spectrum.cpp(709): warning C4838: 從 'double' 到 'const float' 的轉換必須是縮小轉換
+pbrt\core\spectrum.cpp(727): warning C4838: 從 'double' 到 'const float' 的轉換必須是縮小轉換
+pbrt\core\spectrum.cpp(745): warning C4838: 從 'double' 到 'const float' 的轉換必須是縮小轉換
+pbrt\core\spectrum.cpp(763): warning C4838: 從 'double' 到 'const float' 的轉換必須是縮小轉換
+pbrt\core\spectrum.cpp(781): warning C4838: 從 'double' 到 'const float' 的轉換必須是縮小轉換
+pbrt\core\spectrum.cpp(798): warning C4838: 從 'double' 到 'const float' 的轉換必須是縮小轉換
+pbrt\core\spectrum.cpp(816): warning C4838: 從 'double' 到 'const float' 的轉換必須是縮小轉換
+pbrt\core\spectrum.cpp(834): warning C4838: 從 'double' 到 'const float' 的轉換必須是縮小轉換
+pbrt\core\spectrum.cpp(852): warning C4838: 從 'double' 到 'const float' 的轉換必須是縮小轉換
+pbrt\core\spectrum.cpp(870): warning C4838: 從 'double' 到 'const float' 的轉換必須是縮小轉換
+pbrt\core\spectrum.cpp(888): warning C4838: 從 'double' 到 'const float' 的轉換必須是縮小轉換
+pbrt\core\spectrum.cpp(906): warning C4838: 從 'double' 到 'const float' 的轉換必須是縮小轉換
+  stdafx.cpp
+  texture.cpp
+  timer.cpp
+  transform.cpp
+  volume.cpp
+pbrt\core\volume.cpp(100): warning C4838: 從 'double' 到 'float' 的轉換必須是縮小轉換
+  constant.cpp
+  targa.c
+pbrt\core\targa.c(149): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 請參閱 'fopen' 的宣告
+pbrt\core\targa.c(343): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 請參閱 'fopen' 的宣告
+  正在產生程式碼
+  3979 of 8257 functions (48.2%) were compiled, the rest were copied from previous compilation.
+    30 functions were new in current compilation
+    411 functions had inline decision re-evaluated but remain unchanged
+  已完成程式碼產生
+libpbrt.lib(api.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(api.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(half.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(half.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfThreading.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfThreading.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfRgbaFile.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfRgbaFile.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(StdAfx.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(StdAfx.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(sphere.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(sphere.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(cylinder.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(cylinder.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(disk.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(disk.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(cone.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(cone.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(paraboloid.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(paraboloid.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(hyperboloid.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(hyperboloid.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(trianglemesh.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(trianglemesh.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(heightfield.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(heightfield.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(loopsubdiv.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(loopsubdiv.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(nurbs.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(nurbs.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(matte.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(matte.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(plastic.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(plastic.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(translucent.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(translucent.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(glass.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(glass.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(mirror.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(mirror.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(mixmat.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(mixmat.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(metal.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(metal.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(substrate.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(substrate.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(uber.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(uber.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(subsurface.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(subsurface.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(kdsubsurface.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(kdsubsurface.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(measured.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(measured.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(shinymetal.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(shinymetal.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(scale.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(scale.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(mix.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(mix.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(bilerp.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(bilerp.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(imagemap.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(imagemap.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(uv.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(uv.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(checkerboard.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(checkerboard.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(dots.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(dots.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(fbm.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(fbm.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(wrinkled.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(wrinkled.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(marble.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(marble.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(windy.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(windy.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(point.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(point.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(spot.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(spot.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(goniometric.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(goniometric.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(projection.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(projection.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(distant.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(distant.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(infinite.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(infinite.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(diffuse.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(diffuse.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(homogeneous.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(homogeneous.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(volumegrid.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(volumegrid.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(exponential.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(exponential.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(whitted.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(whitted.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(directlighting.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(directlighting.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(path.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(path.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(photonmap.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(photonmap.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(irradiancecache.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(irradiancecache.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(igi.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(igi.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(dipolesubsurface.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(dipolesubsurface.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ambientocclusion.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ambientocclusion.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(useprobes.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(useprobes.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(diffuseprt.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(diffuseprt.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(glossyprt.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(glossyprt.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(single.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(single.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(emission.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(emission.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(bvh.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(bvh.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(grid.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(grid.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(kdtreeaccel.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(kdtreeaccel.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(perspective.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(perspective.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(orthographic.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(orthographic.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(environment.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(environment.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(adaptive.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(adaptive.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(bestcandidate.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(bestcandidate.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(halton.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(halton.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(lowdiscrepancy.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(lowdiscrepancy.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(random.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(random.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(stratified.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(stratified.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(box.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(box.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(gaussian.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(gaussian.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(mitchell.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(mitchell.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(sinc.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(sinc.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(triangle.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(triangle.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(image.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(image.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(metropolis.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(metropolis.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(createprobes.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(createprobes.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(aggregatetest.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(aggregatetest.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(surfacepoints.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(surfacepoints.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(samplerrenderer.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(samplerrenderer.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(IlmThreadPool.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(IlmThreadPool.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(IlmThreadMutexWin32.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(IlmThreadMutexWin32.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfOutputFile.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfOutputFile.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfChannelList.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfChannelList.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfHeader.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfHeader.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfFrameBuffer.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfFrameBuffer.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfStandardAttributes.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfStandardAttributes.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfInputFile.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfInputFile.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfRgbaYca.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfRgbaYca.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfChromaticities.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfChromaticities.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(IexBaseExc.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(IexBaseExc.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(IlmThreadSemaphoreWin32.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(IlmThreadSemaphoreWin32.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(IlmThreadWin32.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(IlmThreadWin32.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfMisc.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfMisc.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfIO.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfIO.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfCompressor.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfCompressor.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfStdIO.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfStdIO.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(IexThrowErrnoExc.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(IexThrowErrnoExc.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfMatrixAttribute.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfMatrixAttribute.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfKeyCode.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfKeyCode.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfTimeCode.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfTimeCode.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfVecAttribute.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfVecAttribute.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfOpaqueAttribute.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfOpaqueAttribute.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfRationalAttribute.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfRationalAttribute.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfEnvmapAttribute.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfEnvmapAttribute.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfIntAttribute.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfIntAttribute.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfKeyCodeAttribute.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfKeyCodeAttribute.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfTimeCodeAttribute.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfTimeCodeAttribute.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfAttribute.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfAttribute.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfFloatAttribute.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfFloatAttribute.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfStringAttribute.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfStringAttribute.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfTileDescriptionAttribute.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfTileDescriptionAttribute.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfChromaticitiesAttribute.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfChromaticitiesAttribute.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfStringVectorAttribute.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfStringVectorAttribute.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfBoxAttribute.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfBoxAttribute.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfDoubleAttribute.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfDoubleAttribute.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfChannelListAttribute.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfChannelListAttribute.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfCompressionAttribute.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfCompressionAttribute.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfPreviewImageAttribute.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfPreviewImageAttribute.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfLineOrderAttribute.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfLineOrderAttribute.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfPreviewImage.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfPreviewImage.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfScanLineInputFile.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfScanLineInputFile.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfTiledInputFile.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfTiledInputFile.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfConvert.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfConvert.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfPizCompressor.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfPizCompressor.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfRleCompressor.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfRleCompressor.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfZipCompressor.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfZipCompressor.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfB44Compressor.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfB44Compressor.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfPxr24Compressor.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfPxr24Compressor.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfTiledMisc.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfTiledMisc.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfTileOffsets.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfTileOffsets.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfWav.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfWav.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(ImfHuf.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(ImfHuf.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(uncompr.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(uncompr.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(compress.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(compress.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(inflate.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(inflate.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(deflate.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(deflate.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(zutil.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(zutil.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(adler32.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(adler32.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(inftrees.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(inftrees.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(inffast.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(inffast.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(crc32.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(crc32.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+libpbrt.lib(trees.obj) : warning LNK4099: 找不到 PDB 'libpbrt.pdb' (有 'libpbrt.lib(trees.obj)' 或位於 'C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\libpbrt.pdb')，當做沒有偵錯資訊，連結物件
+  CUDA_SHDecomposition.vcxproj -> C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\CUDA_SHDecomposition.exe
+  CUDA_SHDecomposition.vcxproj -> C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\CUDA_SHDecomposition.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "C:\Users\tbcey74123\Desktop\CUDA\FinalProject\CUDA_SHDecomposition_Release\x64\Release\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart32_80.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart64_80.dll
+  複製了         2 個檔案。

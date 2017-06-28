@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="main.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="pbrt">
+      <UniqueIdentifier>{54b3dd43-0db8-4436-91a1-613fc9e92925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pbrt\core">
+      <UniqueIdentifier>{0314e23e-6689-4fd2-8c5b-68c887d40b59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pbrt\textures">
+      <UniqueIdentifier>{34b90023-bb49-4a09-b081-9b67203766d9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pbrt\core\camera.cpp">
+      <Filter>pbrt\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrt\core\diffgeom.cpp">
+      <Filter>pbrt\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrt\core\error.cpp">
+      <Filter>pbrt\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrt\core\fileutil.cpp">
+      <Filter>pbrt\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrt\core\film.cpp">
+      <Filter>pbrt\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrt\core\filter.cpp">
+      <Filter>pbrt\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrt\core\floatfile.cpp">
+      <Filter>pbrt\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrt\core\geometry.cpp">
+      <Filter>pbrt\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrt\core\imageio.cpp">
+      <Filter>pbrt\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrt\core\integrator.cpp">
+      <Filter>pbrt\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrt\core\intersection.cpp">
+      <Filter>pbrt\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrt\core\light.cpp">
+      <Filter>pbrt\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrt\core\material.cpp">
+      <Filter>pbrt\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrt\core\memory.cpp">
+      <Filter>pbrt\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrt\core\montecarlo.cpp">
+      <Filter>pbrt\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrt\core\parallel.cpp">
+      <Filter>pbrt\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrt\core\paramset.cpp">
+      <Filter>pbrt\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrt\core\parser.cpp">
+      <Filter>pbrt\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrt\core\pbrtlex.cpp">
+      <Filter>pbrt\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrt\core\pbrtparse.cpp">
+      <Filter>pbrt\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrt\core\primitive.cpp">
+      <Filter>pbrt\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrt\core\probes.cpp">
+      <Filter>pbrt\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrt\core\progressreporter.cpp">
+      <Filter>pbrt\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrt\core\quaternion.cpp">
+      <Filter>pbrt\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrt\core\reflection.cpp">
+      <Filter>pbrt\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrt\core\renderer.cpp">
+      <Filter>pbrt\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrt\core\rng.cpp">
+      <Filter>pbrt\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrt\core\sampler.cpp">
+      <Filter>pbrt\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrt\core\scene.cpp">
+      <Filter>pbrt\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrt\core\sh.cpp">
+      <Filter>pbrt\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrt\core\shape.cpp">
+      <Filter>pbrt\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrt\core\shrots.cpp">
+      <Filter>pbrt\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrt\core\spectrum.cpp">
+      <Filter>pbrt\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrt\core\stdafx.cpp">
+      <Filter>pbrt\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrt\core\targa.c">
+      <Filter>pbrt\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrt\core\texture.cpp">
+      <Filter>pbrt\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrt\core\timer.cpp">
+      <Filter>pbrt\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrt\core\transform.cpp">
+      <Filter>pbrt\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrt\core\volume.cpp">
+      <Filter>pbrt\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrt\textures\constant.cpp">
+      <Filter>pbrt\textures</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
